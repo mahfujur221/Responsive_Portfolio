@@ -265,10 +265,3 @@ margin-top: auto;
   .footer-column {
     margin-bottom: 15px;
   }
-  footer input[type="text"], footer input[type="email"], footer textarea {
-    height: 40px;
-    font-size: 14px;
-    padding: 6px 10px;
-    margin-bottom: 12px;
-  }
-}
