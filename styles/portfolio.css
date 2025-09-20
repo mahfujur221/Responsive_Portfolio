@@ -370,14 +370,6 @@ footer{
     text-align: center;
     justify-content: center;
     gap: 1rem;
-    background: linear-gradient(90deg, #C6E4D6 60%, #FFF 100%);
-    color: #006A50;
-    box-shadow: 0 -4px 16px rgba(84, 144, 245, 0.08);
-}
-.icons img {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.3s;
 
 
 
