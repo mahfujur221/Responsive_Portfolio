@@ -235,28 +235,7 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     padding: 0 10px;
   }
   footer {
-    flex-direction: column;
-    padding: 40px 10px;
-    gap: 30px;
-  }
-  .footer-column {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-}
 
-@media (max-width: 600px) {
-  .nav-title {
-    font-size: 28px;
-  }
-  nav ul li {
-    margin-right: 18px;
-  }
-  nav li a {
-    font-size: 16px;
-  }
-  .banner-greetings {
-    font-size: 28px;
   }
   .banner-title {
     font-size: 32px;
