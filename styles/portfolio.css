@@ -396,15 +396,7 @@ footer{
     box-shadow: 0 8px 32px rgba(84, 144, 245, 0.08);
 }
 
-@media (max-width: 1200px) {
-    header>nav, .hero-section, .pillar-section, .future-vision, .younus {
-        margin: 0 2rem;
-        padding: 2rem;
-    }
-    footer {
-        padding: 30px 2rem;
-    }
-}
+
 
 
 /* Gradient accent for banner profile pic */
