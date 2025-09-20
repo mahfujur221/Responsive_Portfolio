@@ -332,13 +332,6 @@ button:hover, .btn:hover, .explore:hover {
     background: linear-gradient(90deg, #09A15C 0%, #5490F5 100%);
     color: #FFF;
     box-shadow: 0 4px 16px rgba(84, 144, 245, 0.18);
-}
-
-h1, h3 {
-    font-family: "Poppins", "Fira Sans", sans-serif;
-    letter-spacing: 1px;
-    text-shadow: 0 2px 8px rgba(84, 144, 245, 0.08);
-}
 
 
 /* Gradient accent for banner profile pic */
