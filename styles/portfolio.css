@@ -314,12 +314,6 @@ body {
     min-height: 100vh;
 }
 
-.card, .vision-card, .recent-news, .table-box, .younus {
-    box-shadow: 0 8px 32px rgba(84, 144, 245, 0.08), 0 1.5px 8px rgba(14, 14, 14, 0.05);
-    transition: box-shadow 0.3s, transform 0.3s;
-}
-.card:hover, .vision-card:hover, .recent-news:hover {
-
 /* Gradient accent for banner profile pic */
 .banner-profile-pic {
     width: 580px;
