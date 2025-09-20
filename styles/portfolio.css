@@ -196,14 +196,7 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
   .about {
     padding: 60px 30px;
   }
-  main {
-    max-width: 900px;
-  }
-  footer {
-    padding: 60px 40px;
-    gap: 40px;
-  }
-}
+
 
 @media (max-width: 900px) {
   nav {
