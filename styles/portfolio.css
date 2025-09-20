@@ -309,10 +309,7 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
 }
 
 /*  Additional enhancements 
-body {
-    background: linear-gradient(135deg, #F5F5F5 60%, #C6E4D6 100%);
-    min-height: 100vh;
-}
+
 
 /* Gradient accent for banner profile pic */
 .banner-profile-pic {
