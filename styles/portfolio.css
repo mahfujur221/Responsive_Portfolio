@@ -185,9 +185,3 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
 /* Responsive styles for desktop, tablet, and mobile */
 @media (max-width: 1200px) {
   nav {
-    margin: 0 40px;
-  }
-  .banner {
-    margin: 0 20px 0 40px;
-  }
-
