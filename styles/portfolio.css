@@ -198,7 +198,3 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
   }
 
 
-@media (max-width: 900px) {
-  nav {
-    margin: 0 10px;
-    flex-direction: column;
