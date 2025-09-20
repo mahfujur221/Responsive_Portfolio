@@ -326,12 +326,6 @@ body {
 button, .btn, .explore {
     cursor: pointer;
     transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-    box-shadow: 0 2px 8px rgba(84, 144, 245, 0.08);
-}
-button:hover, .btn:hover, .explore:hover {
-    background: linear-gradient(90deg, #09A15C 0%, #5490F5 100%);
-    color: #FFF;
-    box-shadow: 0 4px 16px rgba(84, 144, 245, 0.18);
 
 
 /* Gradient accent for banner profile pic */
