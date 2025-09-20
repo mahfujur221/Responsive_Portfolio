@@ -213,9 +213,3 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
   .banner-content {
     max-width: 100%;
     text-align: center;
-  }
-  .banner-profile-pic {
-    width: 220px;
-    margin-top: 20px;
-  }
-  .about {
