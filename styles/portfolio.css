@@ -231,6 +231,3 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     gap: 20px;
   }
   main {
-    max-width: 100%;
-    padding: 0 10px;
-  }
