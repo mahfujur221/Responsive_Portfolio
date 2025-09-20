@@ -412,20 +412,7 @@ footer{
     }
     .hero-part1, .hero-part2, .news-img, .news-area {
         width: 100%;
-    }
-    .pillar-section, .future-vision, .younus, .donate, .news-letter {
-        margin: 1rem;
-        padding: 1rem;
-    }
-    footer {
-        padding: 20px 1rem;
-    }
-}
- */
 
- /* ...existing code... */
-
-/* Minimalistic & Eye-catching Enhancements */
 
 /* Gradient accent for banner profile pic */
 .banner-profile-pic {
