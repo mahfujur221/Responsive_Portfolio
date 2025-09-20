@@ -219,9 +219,3 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     margin-top: 20px;
   }
   .about {
-    padding: 40px 10px;
-  }
-  .about-items {
-    flex-direction: column;
-    gap: 20px;
-  }
