@@ -181,4 +181,131 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
 }
 
 
+/* ...existing code... */
+
+/* Responsive styles for desktop, tablet, and mobile */
+@media (max-width: 1200px) {
+  nav {
+    margin: 0 40px;
+  }
+  .banner {
+    margin: 0 20px 0 40px;
+  }
+  .banner-profile-pic {
+    width: 350px;
+  }
+  .about {
+    padding: 60px 30px;
+  }
+  main {
+    max-width: 900px;
+  }
+  footer {
+    padding: 60px 40px;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  nav {
+    margin: 0 10px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .banner {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    gap: 30px;
+  }
+  .banner-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .banner-profile-pic {
+    width: 220px;
+    margin-top: 20px;
+  }
+  .about {
+    padding: 40px 10px;
+  }
+  .about-items {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .skills-container,
+  .resume-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  main {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  footer {
+    flex-direction: column;
+    padding: 40px 10px;
+    gap: 30px;
+  }
+  .footer-column {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-title {
+    font-size: 28px;
+  }
+  nav ul li {
+    margin-right: 18px;
+  }
+  nav li a {
+    font-size: 16px;
+  }
+  .banner-greetings {
+    font-size: 28px;
+  }
+  .banner-title {
+    font-size: 32px;
+  }
+  .banner-profile-pic {
+    width: 120px;
+  }
+  .section-title {
+    font-size: 22px;
+  }
+  .section-description {
+    font-size: 15px;
+  }
+  .btn-primary {
+    font-size: 16px;
+    padding: 10px 18px;
+  }
+  main section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .about {
+    padding: 20px 5px;
+  }
+  .skills-container,
+  .resume-container {
+    gap: 10px;
+  }
+  footer {
+    padding: 20px 5px;
+    gap: 15px;
+  }
+  .footer-column {
+    margin-bottom: 15px;
+  }
+  footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 40px;
+    font-size: 14px;
+    padding: 6px 10px;
+    margin-bottom: 12px;
+  }
+}
+
 
