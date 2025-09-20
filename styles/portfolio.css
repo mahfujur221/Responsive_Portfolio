@@ -319,14 +319,6 @@ body {
     transition: box-shadow 0.3s, transform 0.3s;
 }
 .card:hover, .vision-card:hover, .recent-news:hover {
-    box-shadow: 0 12px 40px rgba(84, 144, 245, 0.18), 0 2px 12px rgba(14, 14, 14, 0.10);
-    transform: translateY(-4px) scale(1.03);
-}
-
-button, .btn, .explore {
-    cursor: pointer;
-    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-
 
 /* Gradient accent for banner profile pic */
 .banner-profile-pic {
