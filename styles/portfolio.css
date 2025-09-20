@@ -378,14 +378,6 @@ footer{
     width: 40px;
     height: 40px;
     transition: transform 0.3s;
-}
-.icons img:hover {
-    transform: scale(1.2) rotate(-8deg);
-}
-
-.card img, .vision-card img {
-    transition: transform 0.3s;
-}
 
 
 
