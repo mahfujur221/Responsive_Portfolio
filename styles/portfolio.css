@@ -1,0 +1,477 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+.text-center{
+    text-align: center;
+}
+/* header  */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title{
+    font-weight:800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+}
+.banner-profile-pic{
+    width: 580px;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"],  footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+
+
+
+/* Responsive styles for desktop, tablet, and mobile */
+@media (max-width: 1200px) {
+  nav {
+    margin: 0 40px;
+  }
+  .banner {
+    margin: 0 20px 0 40px;
+  }
+  .banner-profile-pic {
+    width: 350px;
+  }
+  .about {
+    padding: 60px 30px;
+  }
+  main {
+    max-width: 900px;
+  }
+  footer {
+    padding: 60px 40px;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  nav {
+    margin: 0 10px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .banner {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    gap: 30px;
+  }
+  .banner-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .banner-profile-pic {
+    width: 220px;
+    margin-top: 20px;
+  }
+  .about {
+    padding: 40px 10px;
+  }
+  .about-items {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .skills-container,
+  .resume-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  main {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  footer {
+    flex-direction: column;
+    padding: 40px 10px;
+    gap: 30px;
+  }
+  .footer-column {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-title {
+    font-size: 28px;
+  }
+  nav ul li {
+    margin-right: 18px;
+  }
+  nav li a {
+    font-size: 16px;
+  }
+  .banner-greetings {
+    font-size: 28px;
+  }
+  .banner-title {
+    font-size: 32px;
+  }
+  .banner-profile-pic {
+    width: 120px;
+  }
+  .section-title {
+    font-size: 22px;
+  }
+  .section-description {
+    font-size: 15px;
+  }
+  .btn-primary {
+    font-size: 16px;
+    padding: 10px 18px;
+  }
+  main section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .about {
+    padding: 20px 5px;
+  }
+  .skills-container,
+  .resume-container {
+    gap: 10px;
+  }
+  footer {
+    padding: 20px 5px;
+    gap: 15px;
+  }
+  .footer-column {
+    margin-bottom: 15px;
+  }
+  footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 40px;
+    font-size: 14px;
+    padding: 6px 10px;
+    margin-bottom: 12px;
+  }
+}
+
+
+
+
+/* Gradient accent for banner profile pic */
+.banner-profile-pic {
+    width: 580px;
+    border-radius: 50%;
+    border: 6px solid transparent;
+    box-shadow: 0 8px 32px rgba(253, 110, 10, 0.12), 0 1.5px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s, border-image 0.3s;
+    object-fit: cover;
+    background: none;
+}
+.banner-profile-pic:hover {
+    transform: scale(1.05) rotate(-2deg);
+    border-image: linear-gradient(135deg, #FD6E0A 0%, #FFB347 100%);
+    border-image-slice: 1;
+    box-shadow: 0 16px 48px rgba(253, 110, 10, 0.18);
+}
+
+/* Subtle gradient background for header */
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png'), linear-gradient(120deg, #FFF8F3 60%, #FFDAB9 100%);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right, center;
+    background-size: auto, cover, cover;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Animated underline for nav links */
+nav li a {
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+    transition: color 0.3s;
+}
+nav li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #FD6E0A 0%, #FFB347 100%);
+    transition: width 0.3s;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+nav li a:hover {
+    color: #FD6E0A;
+}
+nav li a:hover::after {
+    width: 100%;
+}
+
+/* Card effect for skills and about items */
+.skill, .about-item {
+    background: #fff;
+    box-shadow: 0 4px 24px rgba(253, 110, 10, 0.08);
+    border-radius: 8px;
+    transition: box-shadow 0.3s, transform 0.3s;
+    border: 1px solid #f3f3f3;
+}
+.skill:hover, .about-item:hover {
+    box-shadow: 0 8px 32px rgba(253, 110, 10, 0.18);
+    transform: translateY(-4px) scale(1.03);
+}
+
+/* Button gradient and glow effect */
+.btn-primary {
+    background: linear-gradient(90deg, #FD6E0A 0%, #FFB347 100%);
+    box-shadow: 0 2px 8px rgba(253, 110, 10, 0.12);
+    transition: box-shadow 0.3s, transform 0.3s;
+    border: none;
+}
+.btn-primary:hover {
+    box-shadow: 0 4px 16px rgba(253, 110, 10, 0.18);
+    transform: scale(1.05);
+}
+
+/* Section title accent underline */
+.section-title {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.section-title::after {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 3px;
+    background: linear-gradient(90deg, #FD6E0A 0%, #FFB347 100%);
+    border-radius: 2px;
+    margin: 8px auto 0 auto;
+}
+
+/* Skill bar for skills section */
+.skill-bar {
+    width: 100%;
+    height: 8px;
+    background: #f3f3f3;
+    border-radius: 4px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.skill-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #FD6E0A 0%, #FFB347 100%);
+    border-radius: 4px;
+    transition: width 1s;
+}
+
+/* Footer social icons hover effect */
+.footer-column img {
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 8px rgba(253, 110, 10, 0.08);
+    border-radius: 50%;
+    background: #fff;
+    padding: 4px;
+}
+.footer-column img:hover {
+    transform: scale(1.15) rotate(-8deg);
+    box-shadow: 0 4px 16px rgba(253, 110, 10, 0.18);
+}
+
+/* Divider accent in footer */
+.footer-column hr {
+    border: none;
+    height: 4px;
+    width: 60px;
+    margin: 24px auto;
+    background: linear-gradient(90deg, #FD6E0A 0%, #FFB347 100%);
+    border-radius: 2px;
+}
+
+/* Responsive tweaks for enhancements */
+@media (max-width: 1200px) {
+  .banner-profile-pic {
+    width: 350px;
+  }
+}
+@media (max-width: 900px) {
+  .banner-profile-pic {
+    width: 220px;
+  }
+}
+@media (max-width: 600px) {
+  .banner-profile-pic {
+    width: 100px;
+    border-width: 3px;
+  }
+  .section-title::after {
+    width: 32px;
+    height: 2px;
+  }
+}
+
+/* Simple bounce animation for scroll hint */
+@keyframes bounceDown {
+  0%, 100% { transform: translateY(0);}
+  50% { transform: translateY(12px);}
+}
+
+/* ...existing code... */
